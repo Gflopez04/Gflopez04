@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+/*HEADER*/
 header {
   background-color: #272f3b;
   display: flex;
@@ -27,6 +28,7 @@ header {
 .space {
   width: 20%;
 }
+/*MAIN INFO*/
 .name_info_container {
   display: flex;
   justify-content: center;
@@ -39,6 +41,7 @@ header {
   margin: 2em;
   width: 50%;
   padding: 1em;
+  border-radius: 1em;
 }
 .name_info h3 {
   display: flex;
@@ -60,8 +63,82 @@ header {
   font-size: 18px;
   margin: 8px;
 }
+/*ABOUT*/
+.about_container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 1em;
+margin-top: .2em;
+}
+.about-text{
+  border: 2px solid#646464;
+  padding: .5em;
+  background-color: #272f3b;
+  border-radius: 1em;
+}
+.about-text h3{
+  color: #37cdb6;
+  font-size: 28px;
+}
+.about-img{
+  margin: 2em;
+}
+.about-img img{
+  max-width: 100%;
+  height: auto;
+}
+/*PORTFOLIO*/
+.portfolio h3{
+  font-size: 28px;
+  color: #37cdb6;
+}
+/*COTACT*/
+.contact{
+font-size: 28px;
+color: #37cdb6;
+}
+.Social_container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.github_icon img{
+  background-color: #cfdcda;
+  width: 50px;
+  height: 50px;
+  padding: .8em;
+  border-radius: .5em;
+}
+.linkedln_icon{
+background-color: #cfdcda;
+width: 50px;
+height: 50px;
+padding: .8em;
+border-radius: .5em;
+}
 
+/*---------------------------------------------------------*/
 a {
   text-decoration: none;
   color: aliceblue;
+}
+/* width */
+::-webkit-scrollbar {
+  width: .5em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7b7878;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #37cdb6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #37e0c7;
 }
